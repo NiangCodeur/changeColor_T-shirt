@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>changeColor</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/img-1.png" width="420px" id="img_center" />
+      <div>
+        <button onclick="changeColor1()">
+          <span style="--i: #a7fd9c"></span>
+        </button>
+        <button onclick="changeColor2()">
+          <span style="--i: #ffd0d8"></span>
+        </button>
+        <button onclick="changeColor3()">
+          <span style="--i: #f9f001"></span>
+        </button>
+        <button onclick="changeColor4()">
+          <span style="--i: #d6d5ef"></span>
+        </button>
+        <button onclick="changeColor5()">
+          <span style="--i: #8e1f2f"></span>
+        </button>
+      </div>
+    </div>
+    <!--------javaScript --------->
+    <script>
+      function changeColor1() {
+        document.getElementById("img_center").src = "images/img-1.png";
+      }
+      function changeColor2() {
+        document.getElementById("img_center").src = "images/img-2.png";
+      }
+      function changeColor3() {
+        document.getElementById("img_center").src = "images/img-3.png";
+      }
+      function changeColor4() {
+        document.getElementById("img_center").src = "images/img-4.png";
+      }
+      function changeColor5() {
+        document.getElementById("img_center").src = "images/img-5.png";
+      }
+    </script>
+  </body>
+</html>
